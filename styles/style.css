@@ -12,7 +12,7 @@ body{
 
 .content-section_theme_dark{
     min-height: 100px;
-    background-color: #000000;
+    background-color: #131313;
 }
 
 .content-section_theme_bright{
@@ -21,58 +21,74 @@ body{
 }
 
 .header{
-    padding: 20px 24px;
+    padding: 24px 20px;
+    display: flex;
 }
 
 .header__logo{
-
+    
 }
 .header__logo-image{
-
+    width: 78px;
 }
 .header__menu{
-
+    margin-left: auto;
 }
 .header__menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #f5f5f5;
+    list-style: none;
+    font: 400 normal 16px/1.2 'Inter' serif; 
 
 }
 .header__menu-item{
-
+    
 }
-.header__menu-item_active{
 
-}
 .header__menu-link{
-
+    text-decoration-line: underline ;
+    color: #f5f5f5;
 }
 
+.header__menu-item_active{
+    text-decoration-line: none;
+}
 
 .cover{
-
+    padding-top: 7px;
+    padding-left: 20px;
 }
 
 .intro{
-
+ padding: 35px 20px 38px;
 }
 
 .reasons{
-
+    padding: 40px 20px;
 }
 
 .how-to{
+    padding: 40px 20px 60px;
+}
 
+.footer{
+    padding: 20px;
 }
 
 .cover__title{
-
+    /*background-image: url(../images/cover.svg);
+    background-image: url(../images/cover.png);*/
 }
 .accent-span{
-
+    color: white;
 }
 .text-center{
+    text-align: center;;
 
 }
 .text-right{
-
+    text-align: right;
 }
 

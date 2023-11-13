@@ -10,14 +10,24 @@
     <link rel="stylesheet" href="./styles/style.css" />
 </head>
 <body>
-    <header class="header content-section content-section_theme_dark"></header>
+    <header class="header content-section content-section_theme_dark">
+        <a class="header__logo"><img class="header__logo-image" src="images/logo.svg"></a>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a class="header__menu-link header__menu-item_active" href="#0">Главная</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#intro" >О нас</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#reasons" >Контакты</a></li>
+            </ul>
+        </nav>
+
+    </header>
     <main class="main">
         <section class="section content-section cover content-section_theme_dark"></section>
         <section class="section content-section intro content-section_theme_dark"></section>
         <section class="section content-section reasons content-section_theme_bright"></section>
         <section class="section content-section how-to content-section_theme_dark"></section>
     </main>
-    <footer class="footer content-section"></footer>
+    <footer class="footer content-section content-section_theme_dark"></footer>
 
 </body>
 </html>
