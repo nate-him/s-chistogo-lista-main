@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(42, 61, 44);
+    font-family: Inter, serif;
+    font-weight: 400;
+}
+
+.content-section{
+    width: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark{
+    min-height: 100px;
+    background-color: #000000;
+}
+
+.content-section_theme_bright{
+    min-height: 100px;
+    background-color: #FEE42A;
+}
+
+.header{
+    padding: 20px 24px;
+}
+
+.header__logo{
+
+}
+.header__logo-image{
+
+}
+.header__menu{
+
+}
+.header__menu-list{
+
+}
+.header__menu-item{
+
+}
+.header__menu-item_active{
+
+}
+.header__menu-link{
+
+}
+
+
+.cover{
+
+}
+
+.intro{
+
+}
+
+.reasons{
+
+}
+
+.how-to{
+
+}
+
+.cover__title{
+
+}
+.accent-span{
+
+}
+.text-center{
+
+}
+.text-right{
+
+}
+
