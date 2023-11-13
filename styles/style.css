@@ -38,28 +38,42 @@ body{
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+.header__menu-item{
     color: #f5f5f5;
     list-style: none;
     font: 400 normal 16px/1.2 'Inter' serif; 
-
 }
-.header__menu-item{
-    
-}
-
 .header__menu-link{
     text-decoration-line: underline ;
     color: #f5f5f5;
 }
-
 .header__menu-item_active{
     text-decoration-line: none;
 }
 
 .cover{
-    padding-top: 7px;
-    padding-left: 20px;
+    padding: 7px 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    background-position: right bottom;
 }
+.cover__title{
+    display: flex;
+    flex-direction: column;
+}
+.accent-span{
+    font: normal 400 72px/1 "EB Garamond";
+    color: #fff;
+}
+.text-center{
+    align-self:center;
+}
+.text-right{
+    align-self: flex-end;
+}
+
 
 .intro{
  padding: 35px 20px 38px;
@@ -77,18 +91,4 @@ body{
     padding: 20px;
 }
 
-.cover__title{
-    /*background-image: url(../images/cover.svg);
-    background-image: url(../images/cover.png);*/
-}
-.accent-span{
-    color: white;
-}
-.text-center{
-    text-align: center;;
-
-}
-.text-right{
-    text-align: right;
-}
 
