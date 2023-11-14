@@ -26,10 +26,10 @@ body{
 }
 
 .header__logo{
-    
+    color: #f5f5f5;
 }
 .header__logo-image{
-    width: 78px;
+    width: 80px;
 }
 .header__menu{
     margin-left: auto;
@@ -54,10 +54,11 @@ body{
 
 .cover{
     padding: 7px 20px;
+    min-height: 78px;
     background-image: url(../images/cover.svg);
     background-repeat: no-repeat;
     background-size: 95% auto;
-    background-position: right bottom;
+    background-position: 21px 30px; /*background-position: right bottom;*/
 }
 .cover__title{
     display: flex;
@@ -65,7 +66,6 @@ body{
 }
 .accent-span{
     font: normal 400 72px/1 "EB Garamond";
-    color: #fff;
 }
 .text-center{
     align-self:center;
@@ -74,10 +74,34 @@ body{
     align-self: flex-end;
 }
 
-
 .intro{
- padding: 35px 20px 38px;
+    padding: 30px 20px 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
+
+.intro__heading{
+    display: flex;
+}
+.intro__title{
+    font: normal 400 16px/1.2 'Inter' serif; 
+    color: #f5f5f5;
+    line-height: 1.2;
+}
+
+.intro__date{
+    margin-left: auto;
+    white-space: nowrap;
+    color: #f5f5f5;
+}
+
+.intro__main-text{
+    font: normal 400 16px 'Inter', serif; 
+    color: #f5f5f5;
+    line-height: 1.35;
+}
+
 
 .reasons{
     padding: 40px 20px;
