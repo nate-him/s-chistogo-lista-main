@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     gap: 0;
 }*/
+
 .content-section {
     width: 360px;
     margin: 0 auto;
@@ -31,26 +32,32 @@ body {
 .header__logo {
     color: #f5f5f5;
 }
+
 .header__logo-image {
     width: 80px;
 }
+
 .header__menu {
     margin-left: auto;
 }
+
 .header__menu-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
+
 .header__menu-item {
     color: #f5f5f5;
     list-style: none;
     font: 400 normal 16px/1.2 'Inter' serif; 
 }
+
 .header__menu-link {
     text-decoration-line: underline ;
     color: #f5f5f5;
 }
+
 .header__menu-item_active {
     text-decoration-line: none;
 }
@@ -63,18 +70,22 @@ body {
     background-size: 94% auto;
     background-position: 21px 30px;
 }
+
 .cover__title {
     font: normal 400 72px/1 "EB Garamond";
     display: flex;
     flex-direction: column;
     color: #fff;
 }
+
 .accent-span {
     align-self: auto;
 }
+
 .text-center {
     align-self:center;
 }
+
 .text-right {
     align-self: flex-end;
     /*padding-right: 4px;*/
@@ -90,6 +101,7 @@ body {
 .intro__heading {
     display: flex;
 }
+
 .intro__title {
     font: normal 400 16px/120% 'Inter', serif; 
     color: #f5f5f5;
@@ -129,9 +141,11 @@ body {
     gap: 16px;
     padding-left: 16px;
 }
+
 .content-section__list-item {
     font: normal 400 16px/135% "Inter";
 }
+
 .content-section__list-accent {
     font: normal 700 16px/135% "Inter";
 } 
