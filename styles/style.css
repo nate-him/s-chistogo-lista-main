@@ -1,61 +1,61 @@
-body{
+body {
     background-color: rgb(42, 61, 44);
     font-family: Inter, serif;
 }
 
-/*.body{
+/*.body {
     display: flex;
     flex-direction: column;
     gap: 0;
 }*/
-.content-section{
+.content-section {
     width: 360px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-.content-section_theme_dark{
+.content-section_theme_dark {
     background-color: #131313;
     color: #f5f5f5;
 }
 
-.content-section_theme_bright{
+.content-section_theme_bright {
     background-color: #FEE42A;
 }
 
-.header{
+.header {
     padding: 24px 20px;
     display: flex;
 }
 
-.header__logo{
+.header__logo {
     color: #f5f5f5;
 }
-.header__logo-image{
+.header__logo-image {
     width: 80px;
 }
-.header__menu{
+.header__menu {
     margin-left: auto;
 }
-.header__menu-list{
+.header__menu-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.header__menu-item{
+.header__menu-item {
     color: #f5f5f5;
     list-style: none;
     font: 400 normal 16px/1.2 'Inter' serif; 
 }
-.header__menu-link{
+.header__menu-link {
     text-decoration-line: underline ;
     color: #f5f5f5;
 }
-.header__menu-item_active{
+.header__menu-item_active {
     text-decoration-line: none;
 }
 
-.cover{
+.cover {
     padding: 7px 20px 5px;
     min-height: 78px;
     background-image: url(../images/cover.svg);
@@ -63,80 +63,80 @@ body{
     background-size: 94% auto;
     background-position: 21px 30px;
 }
-.cover__title{
+.cover__title {
     font: normal 400 72px/1 "EB Garamond";
     display: flex;
     flex-direction: column;
     color: #fff;
 }
-.accent-span{
+.accent-span {
     align-self: auto;
 }
-.text-center{
+.text-center {
     align-self:center;
 }
-.text-right{
+.text-right {
     align-self: flex-end;
     /*padding-right: 4px;*/
 }
 
-.intro{
+.intro {
     padding: 30px 20px 37px;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.intro__heading{
+.intro__heading {
     display: flex;
 }
-.intro__title{
+.intro__title {
     font: normal 400 16px/120% 'Inter', serif; 
     color: #f5f5f5;
 }
 
-.intro__date{
+.intro__date {
     margin-left: auto;
     white-space: nowrap;
     color: #f5f5f5;
 }
 
-.intro__main-text{
+.intro__main-text {
     font: normal 400 16px/135% 'Inter', serif; 
     color: #f5f5f5;
 }
 
-.reasons{
+.reasons {
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.content-section__subtitle{
+.content-section__subtitle {
     font: normal 500 28px/115% "EB Garamond";
     display: flex;
     flex-direction: column;
 }
 
-.content-section__introduction{
+.content-section__introduction {
     font: normal 400 20px/135% "Inter";
 }
-.content-section__list{
+.content-section__list {
     font: normal 400 16px/135% "Inter";
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding-left: 16px;
 }
-.content-section__list-item{
+.content-section__list-item {
     font: normal 400 16px/135% "Inter";
 }
-.content-section__list-accent{
+.content-section__list-accent {
     font: normal 700 16px/135% "Inter";
 } 
 
-.how-to{
+.how-to {
     padding: 40px 20px 60px;
     display: flex;
     flex-direction: column;
@@ -144,77 +144,77 @@ body{
     border-bottom: 1px solid #FEE42A;
 }
 
-.cards-list{
+.cards-list {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     gap: 8px;
     border-radius: 30px;
 }
 
-.card_text-only{
+.card_text-only {
     display: flex;
     flex-direction: column;
     gap: 8px;
     border-radius: 30px;
 }
 
-.card_theme_dark{
+.card_theme_dark {
     background-color: #343434;
     padding: 20px 21px 20px 20px;
 
 }
 
-.card_theme_bright{
+.card_theme_bright {
     background-color: #FEE42A;
     padding: 20px;
     color: #131313;
 }
 
-.card__author{
+.card__author {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.card__author-photo{
+.card__author-photo {
     width: 100px;
 }
 
-.card__author-name{
+.card__author-name {
     font: normal 700 16px/135% "Inter";
 }
 
-.card__content{
+.card__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.card__title{
+.card__title {
     font: normal 500 22px/135% "EB Garamond";
 }
 
-.card__text{
+.card__text {
     font: normal 400 16px/135% "Inter";
 }
 
-.footer{
+.footer {
     padding: 20px;
     display: flex;
 }
 
-.footer__copy{
+.footer__copy {
     font: normal 400 16px/135% "Inter";
 }
 
-.footer__links{
+.footer__links {
     font: normal 400 14px/135% "Inter";
     margin-left: auto;
     display: flex;
@@ -223,10 +223,8 @@ body{
     color: #f5f5f5;
     text-decoration-line: none ;
 }
-.footer__list-item{
-}
 
-.footer__list-links{
+.footer__list-links {
     text-decoration-line: none ;
     color: #f5f5f5;
 }
