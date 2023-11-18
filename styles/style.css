@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(42, 61, 44);
   font-family: Inter, serif;
+  background-color: rgb(42, 61, 44);
 }
 
 /*.body {
@@ -10,14 +10,14 @@ body {
 }*/
 
 .content-section {
+  box-sizing: border-box;
   width: 360px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .content-section_theme_dark {
-  background-color: #131313;
   color: #f5f5f5;
+  background-color: #131313;
 }
 
 .content-section_theme_bright {
@@ -25,8 +25,8 @@ body {
 }
 
 .header {
-  padding: 24px 20px;
   display: flex;
+  padding: 24px 20px;
 }
 
 .header__logo {
@@ -49,13 +49,13 @@ body {
 
 .header__menu-item {
   color: #f5f5f5;
-  list-style: none;
   font: 400 normal 16px/120% "Inter";
+  list-style: none;
 }
 
 .header__menu-link {
-  text-decoration-line: underline;
   color: #f5f5f5;
+  text-decoration-line: underline;
 }
 
 .header__menu-item_active {
@@ -63,19 +63,19 @@ body {
 }
 
 .cover {
-  padding: 7px 20px 5px;
   min-height: 78px;
+  padding: 7px 20px 5px;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
-  background-size: 94% auto;
   background-position: 21px 30px;
+  background-size: 94% auto;
 }
 
 .cover__title {
-  font: normal 400 72px/1 "EB Garamond";
   display: flex;
   flex-direction: column;
   color: #fff;
+  font: normal 400 72px/1 "EB Garamond";
 }
 
 .accent-span {
@@ -92,10 +92,10 @@ body {
 }
 
 .intro {
-  padding: 30px 20px 38px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  padding: 30px 20px 38px;
 }
 
 .intro__heading {
@@ -103,43 +103,43 @@ body {
 }
 
 .intro__title {
-  font: normal 400 16px/120% "Inter";
   color: #f5f5f5;
+  font: normal 400 16px/120% "Inter";
 }
 
 .intro__date {
   margin-left: auto;
-  white-space: nowrap;
   color: #f5f5f5;
+  white-space: nowrap;
 }
 
 .intro__main-text {
-  font: normal 400 16px/135% "Inter";
   color: #f5f5f5;
+  font: normal 400 16px/135% "Inter";
 }
 
 .reasons {
-  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding: 40px 20px;
 }
 
 .content-section__subtitle {
-  font: normal 500 28px/115% "EB Garamond";
   display: flex;
   flex-direction: column;
+  font: normal 500 28px/115% "EB Garamond";
 }
 
 .content-section__introduction {
   font: normal 400 20px/27px "Inter";
 }
 .content-section__list {
-  font: normal 400 16px/135% "Inter";
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding-left: 16px;
+  font: normal 400 16px/135% "Inter";
 }
 
 .content-section__list-item {
@@ -151,17 +151,17 @@ body {
 }
 
 .how-to {
-  padding: 40px 20px 60px;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding: 40px 20px 60px;
 }
 
 .cards-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  list-style: none;
 }
 
 .card {
@@ -179,15 +179,15 @@ body {
 }
 
 .card_theme_dark {
-  background-color: #343434;
   padding: 20px 21px 20px 20px;
+  background-color: #343434;
 }
 
 .card_theme_bright {
-  background-color: #fee42a;
   padding: 20px;
   color: #131313;
   list-style: symbols("-");
+  background-color: #fee42a;
 }
 
 .card__author {
@@ -219,9 +219,9 @@ body {
 }
 
 .footer {
+  display: flex;
   border-top: 1px solid #fee42a;
   padding: 20px;
-  display: flex;
 }
 
 .footer__copy {
@@ -229,16 +229,16 @@ body {
 }
 
 .footer__links {
-  font: normal 400 14px/135% "Inter";
-  margin-left: auto;
   display: flex;
   gap: 16px;
-  list-style: none;
+  margin-left: auto;
   color: #f5f5f5;
+  font: normal 400 14px/135% "Inter";
   text-decoration-line: none;
+  list-style: none;
 }
 
 .footer__list-links {
-  text-decoration-line: none;
   color: #f5f5f5;
+  text-decoration-line: none;
 }
